@@ -13,6 +13,7 @@ public class Main {
 
 		Icecream iceCream2 = iceCream1;//ref variables
 
+		
 		iceCream1.brand = "Amul";
 		iceCream1.color = "Purple";
 		iceCream1.price = 67.5f;
