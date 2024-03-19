@@ -8,6 +8,7 @@ public class MutableStrings {
 		StringBuffer sbb = new StringBuffer("Hey");// this is preferreed in MT
 		sbb.reverse();
 
+		
 		sb.append(" Bro");
 
 		System.out.println(sb);
