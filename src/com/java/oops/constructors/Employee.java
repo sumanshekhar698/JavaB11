@@ -44,7 +44,7 @@ public class Employee {
 	}
 	
 	Employee testEmp() {
-		System.out.println(this);
+		System.out.println(this);//this holds the address to the current object
 		return this;
 	}
 
