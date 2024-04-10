@@ -15,6 +15,12 @@ public class Car {
 	public int getVehichileNo() {
 		return vehichileNo;
 	}
+	
+	
+
+	public void setVehichileNo(int vehichileNo) {
+		this.vehichileNo = vehichileNo;
+	}
 
 	public Car(int vehichileNo, String carName, Engine eng) {
 //		super();

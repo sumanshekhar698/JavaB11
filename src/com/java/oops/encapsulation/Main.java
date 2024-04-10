@@ -14,9 +14,11 @@ class Main {
 //		c1.vehichileNo = -9883;//private  things cannot be accessed directly outside their class
 		System.out.println(c1.getVehichileNo());//however we can have indirect access
 
-//		int vehichileNo = c1.getVehichileNo();
-//		vehichileNo = 999999;
-		
+		int vehichileNo = c1.getVehichileNo();
+		vehichileNo = 999999;
+		System.out.println(c1.getVehichileNo());//however we can have indirect access
+
+		c1.setVehichileNo(322);
 //		String sayMyCar = c1.sayMyCar();
 		System.out.println(c1.sayMyCar());
 		
@@ -27,7 +29,7 @@ class Main {
 //		
 //		System.out.println(c1.getVehichileNo());
 //		System.out.println(sayMyCar);
-//		System.out.println(c1.sayMyCar());
+		System.out.println(c1.sayMyCar());
 
 	}
 
